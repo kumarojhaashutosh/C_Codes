@@ -25,7 +25,7 @@ void display(node *head, int reverse)
     return;
   }
 
-  while(temp!=NULL)
+  while(temp!=NULL) //print data from beginning to end
   {
     printf("%d ",temp->data);
     temp = temp->next;
